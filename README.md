@@ -2,6 +2,7 @@
 
 这是一个用WPF做的电机控件
 This is a motor control created with WPF
+![](images/屏幕截图 2025-12-01 144104.png)
 
 控件外观是电机形状
 The appearance of the control is in the shape of a motor
