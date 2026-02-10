@@ -9,7 +9,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WpfApp1
+namespace Motor
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -19,17 +19,6 @@ namespace WpfApp1
         public MainWindow()
         {
             InitializeComponent();
-        }
-
-        private void test_Click(object sender, RoutedEventArgs e)
-        {
-            MotorBuutonControl tempBtn = (MotorBuutonControl)sender;
-
-            if (tempBtn is not null)
-            {
-                MotorControlWindow motorControlWindow = new MotorControlWindow(tempBtn.Content.ToString() ?? "遇到错误 / 内容名字是空", tempBtn);
-                motorControlWindow.Show();
-            }
         }
     }
 }
